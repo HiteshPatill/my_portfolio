@@ -102,6 +102,12 @@ export default function Home() {
         <div className="space-y-6">
           {[
             {
+              title: 'Car Dashboard Simulation Using CAN Bus',
+              tech: 'Embedded C, PIC18F4580, CAN, UART, ADC, CLCD, Digital Keypad',
+              description: 'Developed a distributed automotive dashboard system using three PIC18F4580-based ECUs communicating over the CAN protocol. Implemented ADC to acquire vehicle speed and engine RPM using potentiometers, while a digital keypad was used for gear selection and turn indicator control. Designed a Master ECU to receive CAN messages from both ECUs and display real-time vehicle information on a CLCD. Used UART with Tera Term for debugging and validating CAN communication between the ECUs.',
+              link: 'https://github.com/HiteshPatill/car_dashboard_simulation',
+            },
+            {
               title: 'USB Device Driver for Linux Kernel',
               tech: 'C, Linux Kernel, Makefile, dmesg, printk',
               description: 'Built a Loadable Kernel Module to detect USB devices by Vendor ID/Product ID, manage probe/disconnect events, and log driver actions with printk for kernel debugging. Designed a character driver interface to expose USB status to userspace and handle device communication. Gained practical experience writing Makefiles, handling kernel memory, and debugging with dmesg.',
