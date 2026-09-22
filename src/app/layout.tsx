@@ -21,8 +21,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${newsreader.variable} antialiased font-serif`}>
+    <html lang="en" suppressHydrationWarning>
+      <body suppressHydrationWarning className={`${newsreader.variable} antialiased font-serif`}>
         {children}
       </body>
     </html>
