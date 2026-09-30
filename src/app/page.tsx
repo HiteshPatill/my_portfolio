@@ -99,21 +99,22 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex gap-6">
-            <div className="flex flex-col items-center">
-              <div className="w-2 h-2 rounded-full bg-gray-900 dark:bg-gray-100 mt-[6px] shrink-0 ring-4 ring-white dark:ring-black"></div>
+            <div className="flex gap-6">
+              <div className="flex flex-col items-center">
+                <div className="w-2 h-2 rounded-full bg-gray-900 dark:bg-gray-100 mt-[6px] shrink-0 ring-4 ring-white dark:ring-black"></div>
+              </div>
+              <div className="pb-2">
+                <p className="text-[0.82rem] text-gray-400 dark:text-gray-500 mb-1 tracking-wide uppercase">Sep 2024 — Mar 2025</p>
+                <p className="font-semibold leading-snug">Embedded Firmware Developer Intern</p>
+                <p className="text-gray-500 dark:text-gray-400 text-[0.95rem]">MR Network Web Solution · Pune, Maharashtra, India</p>
+                <ul className="mt-3 list-disc pl-5 text-gray-700 dark:text-gray-300 space-y-1">
+                  <li>Developed and debugged embedded firmware using C and Embedded C.</li>
+                  <li>Interfaced microcontrollers with communication protocols including GPIO, UART, SPI, and I2C.</li>
+                  <li>Implemented firmware modules, optimized code, and performed hardware-software integration and testing.</li>
+                  <li>Collaborated with senior developers to troubleshoot system issues and enhance overall device functionality.</li>
+                </ul>
+              </div>
             </div>
-            <div className="pb-2">
-              <p className="text-[0.82rem] text-gray-400 dark:text-gray-500 mb-1 tracking-wide uppercase">Feb 2024 — Mar 2025</p>
-              <p className="font-semibold leading-snug">Flutter Developer Intern</p>
-              <p className="text-gray-500 dark:text-gray-400 text-[0.95rem]">MR Network Web Solution · Pune, Maharashtra, India</p>
-              <ul className="mt-3 list-disc pl-5 text-gray-700 dark:text-gray-300 space-y-1">
-                <li>Contributed to Android application development using Flutter.</li>
-                <li>Collaborated on feature implementation, API integration, testing, and bug fixing.</li>
-                <li>Worked on projects including Shetimitra, an E-Commerce Platform, and a Billing System.</li>
-              </ul>
-            </div>
-          </div>
         </div>
       </section>
 
